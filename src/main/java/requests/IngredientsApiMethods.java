@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static requests.Settings.ALL_INGREDIENTS_URL;
+import static settings.Settings.ALL_INGREDIENTS_URL;
 
 
 /**

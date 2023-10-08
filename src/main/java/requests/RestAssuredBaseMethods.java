@@ -8,7 +8,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.*;
-import static requests.Settings.*;
+import static settings.Settings.*;
 
 
 /**

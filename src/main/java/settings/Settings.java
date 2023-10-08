@@ -1,5 +1,4 @@
-package requests;
-
+package settings;
 
 /**
  * <H2>Настройки проекта автотестов.</H2>
