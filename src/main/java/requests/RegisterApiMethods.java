@@ -33,7 +33,7 @@ public class RegisterApiMethods extends RestAssuredBaseMethods {
 
 
     @Step("Получение ответа из тела после регистрации пользователя (в виде POJO)")
-    public static RegisterResponseAllDto getPojoFromResponsePositiveRegisterUser(Response response){
+    public static RegisterResponseAllDto getDtoFromResponseRegisterUser(Response response){
         return response.as(RegisterResponseAllDto.class);
     }
 
